@@ -34,13 +34,7 @@ const projectLinks = {
 }
 
 export default function Home() {
-  const images = [
-    'https://images.pexels.com/photos/1311587/pexels-photo-1311587.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    'https://images.pexels.com/photos/1311587/pexels-photo-1311587.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    'https://images.pexels.com/photos/1311587/pexels-photo-1311587.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    'https://images.pexels.com/photos/1311587/pexels-photo-1311587.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    'https://images.pexels.com/photos/1311587/pexels-photo-1311587.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-  ]
+  const images = ['/img/image-1.jpg', '/img/image-2.jpg', '/img/image-3.jpg', '/img/image-4.jpg']
   const [distortion, setDistortion] = useState(3.0)
   const [distortion2, setDistortion2] = useState(5.0)
   const [speed, setSpeed] = useState(0.2)
