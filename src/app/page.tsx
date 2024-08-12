@@ -34,7 +34,17 @@ const projectLinks = {
 }
 
 export default function Home() {
-  const images = ['/img/image-1.jpg', '/img/image-2.jpg', '/img/image-3.jpg', '/img/image-4.jpg']
+  const images = [
+    '/img/image-1.png',
+    '/img/image-2.png',
+    '/img/image-3.png',
+    '/img/image-4.png',
+    '/img/image-5.png',
+    '/img/image-6.png',
+    '/img/image-7.png',
+    '/img/image-8.png',
+    '/img/image-9.png',
+  ]
   const [distortion, setDistortion] = useState(3.0)
   const [distortion2, setDistortion2] = useState(5.0)
   const [speed, setSpeed] = useState(0.2)

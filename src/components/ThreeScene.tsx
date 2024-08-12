@@ -185,6 +185,8 @@ const GalleryScroll: React.FC<GalleryScrollProps> = ({ images }) => {
         } else if (offsetY < -parentHeight) {
           offsetY += parentHeight
         }
+
+        mesh.position.y += offsetY
       },
       onResize: ({
         screen,
